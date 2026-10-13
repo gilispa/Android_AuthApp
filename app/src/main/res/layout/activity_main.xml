@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F6F3FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="28dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bienvenido"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#28184E"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inicia sesión en tu cuenta"
+            android:textSize="16sp"
+            android:textColor="#81759B"
+            android:layout_marginBottom="40dp"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/rounded_input"
+            android:hint="Correo electrónico"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:padding="16dp"
+            android:textColor="#28184E"
+            android:textColorHint="#9B92AD"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/rounded_input"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:padding="16dp"
+            android:textColor="#28184E"
+            android:textColorHint="#9B92AD"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/tvForgotPassword"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="¿Olvidaste tu contraseña?"
+            android:textColor="#7048E8"
+            android:textSize="14sp"
+            android:gravity="end|center_vertical"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="#7048E8"
+            android:text="Iniciar sesión"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿No tienes una cuenta?"
+            android:textColor="#81759B"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/tvRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Regístrate aquí"
+            android:textColor="#7048E8"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</ScrollView>
